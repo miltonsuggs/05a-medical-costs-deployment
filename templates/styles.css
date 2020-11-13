@@ -1,0 +1,109 @@
+/* html {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    background-size: cover;
+    background: #70bg32;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to left top, blue, red);
+    background: -moz-linear-gradient( to left top, blue, red);
+    background: -ms-linear-gradient( to left top, blue, red);
+    background: -o-linear-gradient( to left top, blue, red);
+    background: linear-gradient( to left top, blue, red);
+
+} */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(#182c54, #336361);
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: #70bg32;
+  background-repeat: no-repeat;
+  background: -webkit-linear-gradient( to left top, blue, red);
+  background: -moz-linear-gradient( to left top, blue, red);
+  background: -ms-linear-gradient( to left top, blue, red);
+  background: -o-linear-gradient( to left top, blue, red);
+  background: linear-gradient( to left top, blue, red); */
+  margin-top: 5%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 50%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 2px;
+  margin: 5px 0 10px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #fff;
+}
+
+li {
+  text_align: left;
+  color: #fff;
+}
+
+input {
+  width: 20%;
+  height: 40px;
+}
+
+.button-holder {
+  margin: 15px auto;
+  text-align: center;
+}
+
+.btn {
+  background-color: #a38239;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  width: 150px;
+  height: 50px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #a38239;
+}
+
+.form-holder {
+  text-align: center;
+  margin: auto;
+  padding: 0 10% 10%;
+}
+
+.list-holder {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+}
